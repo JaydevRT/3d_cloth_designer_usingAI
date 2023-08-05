@@ -81,7 +81,7 @@ const Customizer = () => {
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded',
           'X-RapidAPI-Key': 'be443b36e0msh152dfdc57384160p101b93jsn7a4148386c5f',
-          'X-RapidAPI-Host': 'open-ai21.p.rapidapi.com',
+          'X-RapidAPI-Host': 'arimagesynthesizer.p.rapidapi.com',
         },
         body: new URLSearchParams({
           text: prompt,
