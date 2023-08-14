@@ -76,12 +76,12 @@ const Customizer = () => {
 
     try {
       setGeneratingImg(true);
-      const response = await fetch('https://open-ai21.p.rapidapi.com/texttoimage', {
+      const response = await fetch('https://image-generator-using-text-descriptions-fast-cheap3.p.rapidapi.com/v1/inference/runwayml/stable-diffusion-v1-5', {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/x-www-form-urlencoded',
+          'Content-Type': 'application/json'',
           'X-RapidAPI-Key': 'be443b36e0msh152dfdc57384160p101b93jsn7a4148386c5f',
-          'X-RapidAPI-Host': 'arimagesynthesizer.p.rapidapi.com',
+          'X-RapidAPI-Host': 'image-generator-using-text-descriptions-fast-cheap3.p.rapidapi.com',
         },
         body: new URLSearchParams({
           text: prompt,
